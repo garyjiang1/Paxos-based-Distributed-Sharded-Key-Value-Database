@@ -31,7 +31,7 @@ runTests() {
     then
       rm ./log-${1}-${i}.txt
     else
-      python3 ../../extract.py ./log-${1}-${i}
+      ../../extract ./log-${1}-${i}  # Updated line
       rm ./log-${1}-${i}.txt
     fi
   done
