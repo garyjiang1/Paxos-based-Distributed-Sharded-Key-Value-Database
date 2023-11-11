@@ -7,7 +7,6 @@
 - [Main Components](#main-components)
 - [The Journey of Data: A Story of the System](#the-journey-of-data-a-story-of-the-system)
 - [Usage](#usage)
-- 
 ## Introduction
 
 The project implements a distributed key/value storage system supporting concurrent *Put*, *Get*, and *PutHash* requests from multiple clients with sequential consistency. Scalability and fault tolerance are achieved by sharding keys over a set of replica groups and incorporating the Paxos protocol in each replica group.
