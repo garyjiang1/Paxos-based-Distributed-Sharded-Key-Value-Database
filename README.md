@@ -1,4 +1,4 @@
-# Paxos-based Sharded Key/Value Database
+# Paxos-based Distributed Sharded Key/Value Database
 
 *This project is an excerpt of an individual course assignment implementation of Fundamentals of Large-scale Distributed Systems at Columbia University, Fall 2023.* [Course website](https://systems.cs.columbia.edu/ds1-class/ "Course website")
 
