@@ -10,8 +10,7 @@ paxosTests=("TestBasic" "TestDeaf" "TestForget" "TestManyForget" "TestForgetMem"
 kvpaxosTests=("TestBasic" "TestDone" "TestPartition" "TestUnreliable" "TestHole" "TestManyPartition")
 shardmasterTests=("TestBasic" "TestUnreliable" "TestFreshQuery")
 
-# How many times to run each test case (eg 50)
-num_executions=50
+num_executions=100
 
 echo "Enter $1"
 echo "Running these tests ${num_executions} times: ${@:2}"
