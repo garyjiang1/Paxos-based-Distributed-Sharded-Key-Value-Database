@@ -273,7 +273,7 @@ func (sm *ShardMaster) executePaxosWorkflow(op *Op) {
 	for !sm.consensusReached(op) {
 		sm.startPaxosProcess(op)
 		// sm.logger.Printf("Waiting for consensus on operation: %+v", *op)
-		time.Sleep(10 * time.Millisecond)
+		time.Sleep(100 * time.Millisecond)
 	}
 	// sm.logger.Printf("Consensus reached for operation: %+v", *op)
 }
